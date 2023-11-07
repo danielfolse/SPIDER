@@ -1,0 +1,4 @@
+source;share/locomotion/local_setup.bash
+source;share/locomotion/local_setup.dsv
+source;share/locomotion/local_setup.sh
+source;share/locomotion/local_setup.zsh
