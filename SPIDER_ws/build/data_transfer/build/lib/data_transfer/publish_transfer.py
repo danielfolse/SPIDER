@@ -10,7 +10,7 @@ class PublishTransfer(Node):
     def __init__(self):
         super().__init__('publish_transfer')
         self.publisher_ = self.create_publisher(String, 'commitCommand', 10)
-        timer_period = 300  # seconds
+        timer_period = 10  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
@@ -19,7 +19,7 @@ class PublishTransfer(Node):
         startTime = now - timedelta(minutes = 5)
         timeFormat = '%Y-%m-%d, %H:%M:%S'
         msg = String()
-        msg.data = 'Minute has passed, commit data from %s to %s' % (now.strftime(timeFormat), startTime.strftime(timeFormat))
+        msg.data = '10 seconds has passed, collect and commit data from %s to %s' % (now.strftime(timeFormat), startTime.strftime(timeFormat))
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1

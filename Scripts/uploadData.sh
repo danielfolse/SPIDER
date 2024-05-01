@@ -8,6 +8,6 @@ cd SPIDER_Data
 git add .
 git commit -m "saving data"
 git push
-
+rm -r testData/*
 cd $curr_dir
 echo "changes pushed to github"

@@ -1,0 +1,8 @@
+prefix=/home/danielfolse/repos/SPIDER/MVP1_ws/devel
+
+Name: locomotion
+Description: Description of locomotion
+Version: 0.0.0
+Cflags: -I/home/danielfolse/repos/SPIDER/MVP1_ws/devel/include -I/home/danielfolse/repos/SPIDER/MVP1_ws/src/locomotion/include
+Libs: -L${prefix}/lib -llocomotion
+Requires: roscpp rospy std_msgs message_runtime

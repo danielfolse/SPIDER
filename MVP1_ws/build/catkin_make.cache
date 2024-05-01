@@ -1,0 +1,2 @@
+locomotion
+-DCATKIN_DEVEL_PREFIX=/home/danielfolse/repos/SPIDER/MVP1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/danielfolse/repos/SPIDER/MVP1_ws/install -G Unix Makefiles
