@@ -1,0 +1,13 @@
+*/build
+*/install
+*/log
+
+*/venv
+*/__pycache__
+*/.env  
+
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
