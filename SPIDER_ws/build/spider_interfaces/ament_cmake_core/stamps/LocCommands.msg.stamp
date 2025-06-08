@@ -1,2 +1,0 @@
-std_msgs/String move_type
-int64 move_amount
